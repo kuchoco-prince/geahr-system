@@ -1,16 +1,14 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.so
-*.egg-info/
-.venv/
+
+# Virtual environment
 venv/
+.env
 
 # Django
-*.log
-local_settings.py
 db.sqlite3
 media/
 staticfiles/
@@ -18,7 +16,5 @@ staticfiles/
 # VS Code
 .vscode/
 
-# Env
-.env
-.env.*
-
+# Logs
+*.log
